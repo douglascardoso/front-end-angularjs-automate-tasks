@@ -1,0 +1,24 @@
+<div data-ng-repeat="person in people">
+	
+	<div class="block width-20">
+	    <div class="spacer">
+	        <label for="id" translate>people.label_id</label>
+			<span id="id">{{person.id}}</span>
+	    </div>
+	</div>
+	
+	<div class="block width-20">
+	    <div class="spacer">
+	        <label for="name" translate>people.label_name</label>
+		<span id="name">{{person.name}}</span>
+	    </div>
+	</div>
+	
+	<div class="block width-60">
+	    <div class="spacer">
+	        <label for="info" translate>people.label_info</label>
+			<span id="info" style="display:block; width:50%">{{person.disclosableInfo}}</span>
+	    </div>
+	</div>
+	
+</div>

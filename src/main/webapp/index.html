@@ -1,8 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-ng-app="cinqWebapp">
     <head>
-    </head>
+    	<link rel="stylesheet" href="app/styles/css/main.css" />	
+	</head>
     <body>
-        Hello World
+    
+    <div data-ng-view=""></div>
+        
+    <script type="text/javascript" src="modules/angular.js"></script>
+    <script type="text/javascript" src="modules/angular-cookies.js"></script>
+	<script type="text/javascript" src="modules/angular-route.js"></script>
+	<script type="text/javascript" src="modules/angular-translate.js"></script>
+	<script type="text/javascript" src="modules/angular-translate-storage-local.min.js"></script>
+	<script type="text/javascript" src="modules/angular-translate-storage-cookie.min.js"></script>
+	<script type="text/javascript" src="modules/angular-translate-loader-static-files.min.js"></script>
+	<script type="text/javascript" src="modules/jquery-2.1.4.min.js"></script>
+	
+	<script type="text/javascript" src="app/scripts/app.js"></script>
+    <script type="text/javascript" src="app/scripts/controllers/people-controller.js"></script>
+    <script type="text/javascript" src="app/scripts/services/people-service.js"></script>
+    <script type="text/javascript" src="app/scripts/services/request-service.js"></script>
+    <script type="text/javascript" src="app/scripts/services/uri-service.js"></script>
     </body>
 </html>

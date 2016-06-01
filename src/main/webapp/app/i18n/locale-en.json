@@ -1,0 +1,7 @@
+{
+	"people" :{
+		"label_id" 				: "ID",
+		"label_name" 			: "NAME",
+		"label_info" 			: "INFORMATION"
+	}
+}
